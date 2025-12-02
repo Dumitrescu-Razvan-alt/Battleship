@@ -101,6 +101,9 @@ void printBothRepresentations(Triple *sparse, int x) {
     }
     free(dense);
 }
+bool attackPosition(Triple* sparse, int x, int y){
+   return 0; 
+}
 
 int main() {
     int x, row, col;
